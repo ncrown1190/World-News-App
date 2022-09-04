@@ -1,0 +1,13 @@
+.card-title {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  font-size: 24px;
+}
+.card-text {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 600;
+}

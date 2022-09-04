@@ -1,0 +1,17 @@
+li {
+  padding: 10px;
+}
+.menu-bar-container a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  /* border: 2px solid rgb(85, 26, 139); */
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+.menu-bar-container a:hover {
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+}
