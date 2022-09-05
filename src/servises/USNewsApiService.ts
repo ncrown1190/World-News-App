@@ -9,6 +9,13 @@ export function fetchUSNews() {
     })
     .then((response) => response.data);
 }
+export function fetchGNews() {
+  return axios
+    .get(
+      "https://gnews.io/api/v4/top-headlines?token=d27f9655a54c56c64292e12a6e1f33f4&country=us&lang=en"
+    )
+    .then((response) => response.data);
+}
 // export function fetchUSNews() {
 //   return axios
 //     .get(
