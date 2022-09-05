@@ -21,6 +21,7 @@ export default function SingleNewsCard({ singleNewsCard }: Props) {
           <p className="card-text">{singleNewsCard.description}</p>
           <a
             target="_blank"
+            rel="noreferrer"
             href={singleNewsCard.url}
             className="btn btn-primary"
           >

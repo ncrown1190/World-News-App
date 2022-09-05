@@ -17,7 +17,12 @@ export default function NewsCard({ NewsCard }: Props) {
             Language: {NewsCard.language.toUpperCase()}
           </h5>
           <p className="card-text">{NewsCard.description}</p>
-          <a target="_blank" href={NewsCard.url} className="btn btn-primary">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={NewsCard.url}
+            className="btn btn-primary"
+          >
             More Detail...
           </a>
         </div>
