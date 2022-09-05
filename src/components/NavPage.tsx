@@ -1,6 +1,7 @@
 //
 
 import { Route, Routes } from "react-router-dom";
+import FetchIndGNews from "./FetchIndGNews";
 import FetchIndiaNews from "./FetchIndiaNews";
 import FetchNews from "./FetchNews";
 import FetchNewsByPublication from "./FetchNewsByPublication";
@@ -11,6 +12,7 @@ export default function NavPage() {
     <div>
       <Routes>
         <Route path="/usGnews" element={<FetchUsGNews />} />
+        <Route path="/inGnews" element={<FetchIndGNews />} />
         <Route path="/us" element={<FetchNews />} />
         <Route path="/in" element={<FetchIndiaNews />} />
         <Route path="/publication" element={<FetchNewsByPublication />} />

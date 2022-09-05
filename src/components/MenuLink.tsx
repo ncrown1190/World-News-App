@@ -20,6 +20,9 @@ export default function MenuLink() {
               <Link to="/usGNews">Fetch US GNews</Link>
             </li>
             <li>
+              <Link to="/inGNews">Fetch India GNews</Link>
+            </li>
+            <li>
               <Link to="/us">Fetch US News</Link>
             </li>
             <li>

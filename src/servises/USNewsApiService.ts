@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const apiKey = process.env.REACT_APP_NEWS_API_KEY || "";
+const gnewsKey = process.env.REACT_APP_GNEWS_API_KEY || "";
 
 export function fetchUSNews() {
   return axios
@@ -11,9 +12,16 @@ export function fetchUSNews() {
 }
 export function fetchGNews() {
   return axios
-    .get(
-      "https://gnews.io/api/v4/top-headlines?token=d27f9655a54c56c64292e12a6e1f33f4&country=us&lang=en"
-    )
+    .get("https://gnews.io/api/v4/top-headlines?country=us&lang=en", {
+      params: { token: gnewsKey },
+    })
+    .then((response) => response.data);
+}
+export function fetchGIndNews() {
+  return axios
+    .get("https://gnews.io/api/v4/top-headlines?country=in&lang=en", {
+      params: { token: gnewsKey },
+    })
     .then((response) => response.data);
 }
 // export function fetchUSNews() {
