@@ -33,6 +33,7 @@ export default function FetchIndiaNews() {
           ))}
         </div>
       </div>
+      <div className="warning">It is Paid......</div>
     </>
   );
 }
