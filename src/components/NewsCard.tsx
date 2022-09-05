@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { NewsPub } from "../models/NewsPub";
 import "./NewsCard.css";
 

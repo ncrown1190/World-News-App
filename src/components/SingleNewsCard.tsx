@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { News } from "../models/Interface";
 import "./SingleNewsCard.css";
 

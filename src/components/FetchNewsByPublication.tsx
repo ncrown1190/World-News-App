@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { News } from "../models/Interface";
+import { NewsPub } from "../models/NewsPub";
 import { getNewsByPub } from "../servises/USNewsApiService";
 import "./FetchNewsByPublication.css";
 import NewsCard from "./NewsCard";
 
 export default function FetchNews() {
-  const [news, setNews] = useState([]);
+  const [news, setNews] = useState<NewsPub[]>([]);
 
   useEffect(() => {
     getNewsByPub().then((res: any) => {
