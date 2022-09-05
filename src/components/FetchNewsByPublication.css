@@ -3,7 +3,7 @@
 }
 .newscontainerPublication .row {
   /* width: 350px; */
-  height: 350px;
+  /* height: 350px; */
   display: grid;
   grid-template-columns: auto;
   padding-right: 30px;

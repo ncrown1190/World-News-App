@@ -17,19 +17,19 @@ export default function MenuLink() {
             }}
           >
             <li>
-              <Link to="/usGNews">Fetch US GNews</Link>
+              <Link to="/usGNews">US GNews</Link>
             </li>
             <li>
-              <Link to="/inGNews">Fetch India GNews</Link>
+              <Link to="/inGNews">India GNews</Link>
             </li>
             <li>
-              <Link to="/us">Fetch US News</Link>
+              <Link to="/us">US News</Link>
             </li>
             <li>
-              <Link to="/in">Fetch India News</Link>
+              <Link to="/in">India News</Link>
             </li>
             <li>
-              <Link to="/publication">Fetch News By Publication</Link>
+              <Link to="/publication">Publishing House</Link>
             </li>
           </ul>
         </nav>
