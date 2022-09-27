@@ -2,12 +2,14 @@
   margin: 0;
   padding: 10px;
   display: flex;
-  font-size: 24px;
+  font-size: 15px;
+  font-weight: 800;
 }
 .card-text {
-  height: 150px;
+  margin: 0;
+  height: 115px;
   display: flex;
   flex-direction: row;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
