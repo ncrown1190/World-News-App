@@ -1,5 +1,7 @@
 .col-4 {
   display: flex;
+  height: 550px;
+  aspect-ratio: auto 385/550;
   /* justify-content: center; */
   /* align-items: center; */
 }
