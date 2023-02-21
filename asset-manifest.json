@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/World-News-App/static/css/main.08d3d370.css",
-    "main.js": "/World-News-App/static/js/main.a9ec5a2b.js",
+    "main.js": "/World-News-App/static/js/main.34aa8948.js",
     "static/js/787.5b985bc1.chunk.js": "/World-News-App/static/js/787.5b985bc1.chunk.js",
     "index.html": "/World-News-App/index.html",
     "main.08d3d370.css.map": "/World-News-App/static/css/main.08d3d370.css.map",
-    "main.a9ec5a2b.js.map": "/World-News-App/static/js/main.a9ec5a2b.js.map",
+    "main.34aa8948.js.map": "/World-News-App/static/js/main.34aa8948.js.map",
     "787.5b985bc1.chunk.js.map": "/World-News-App/static/js/787.5b985bc1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08d3d370.css",
-    "static/js/main.a9ec5a2b.js"
+    "static/js/main.34aa8948.js"
   ]
 }
