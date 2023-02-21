@@ -44,7 +44,7 @@ export default function FetchNews() {
           ))}
         </div>
       </div>
-      <div className="warning">It is Paid......</div>
+      <div className="warning">Sorry this API is Paid......</div>
       {/* <div className="newscontainerCountry">
         <div className="row">
           {news.map((value, index) => (
