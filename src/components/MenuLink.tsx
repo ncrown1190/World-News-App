@@ -17,7 +17,7 @@ export default function MenuLink() {
             }}
           >
             <li>
-              <Link to="/usGNews">US GNews</Link>
+              <Link to="/">US GNews</Link>
             </li>
             <li>
               <Link to="/inGNews">India GNews</Link>

@@ -11,7 +11,7 @@ export default function NavPage() {
   return (
     <div>
       <Routes>
-        <Route path="/usGnews" element={<FetchUsGNews />} />
+        <Route path="/" element={<FetchUsGNews />} />
         <Route path="/inGnews" element={<FetchIndGNews />} />
         <Route path="/us" element={<FetchNews />} />
         <Route path="/in" element={<FetchIndiaNews />} />
